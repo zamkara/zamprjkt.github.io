@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Telegram",
+        "color": "#0088cc",
+        "icon": "telegram",
+        "url": "https://t.me/naalpha"
+	},
+    {
+        "name": "Instagram",
+        "color": "#bc2a8d",
+        "icon": "instagram",
+        "url": "https://www.instagram.com/nurza_alpha"
+	},
+    {
+        "name": "Github",
+        "color": "black",
+        "icon": "github-face",
+        "url": "https://github.com/nurzam891"
+	},
+    {
+        "name": "Facebook",
+        "color": "blue",
+        "icon": "facebook",
+        "url": "https://facebook.com/nurzaman0809"
+	}
+]
