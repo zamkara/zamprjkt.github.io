@@ -114,7 +114,7 @@
     }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1090px) {
     #profileImage {
         margin-top: calc(10%);
     }
@@ -130,7 +130,7 @@
         background-image: url(../images/BG.png); 
         background-attachment: fixed;
         background-size: 500px;
-        background-position: -85px 0px;
+        background-position: -100px -10px;
     }
 }
 
