@@ -22,5 +22,11 @@
         "color": "blue",
         "icon": "facebook",
         "url": "https://facebook.com/nurzaman0809"
-	}
+	},
+    {
+        "name": "Whatsapp",
+        "color": "green",
+        "icon": "whatsapp",
+        "url": "tel:+6282314651172"
+    }
 ]
