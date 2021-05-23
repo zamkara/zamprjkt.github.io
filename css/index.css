@@ -43,7 +43,7 @@
 /* The various Texts */
 @media only screen and (max-width: 2000px) {
     .header {
-        background-image: url(../images/BG.png);
+        background-image: url(https://raw.githubusercontent.com/nurzam891/nurzam891.github.io/site/images/BG.png);
         background-attachment: fixed;
         background-size: fill;
         background-position: -75px 0px;
@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 600px) {
     .header{
-        background-image: url(../images/BG.png); 
+        background-image: url(https://raw.githubusercontent.com/nurzam891/nurzam891.github.io/site/images/BG.png); 
         background-attachment: fixed;
         background-size: 500px;
         background-position: -75px 0px;
