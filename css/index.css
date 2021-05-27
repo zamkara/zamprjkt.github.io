@@ -254,12 +254,11 @@
     }
   }
   @media (max-width: 1090px) {
-      
     .glom {
         position: absolute;
         z-index: -1;
         width: 100%;
-        top: 50px;
+        top: 70px;
         background: transparent;
         overflow: hidden;
     }
