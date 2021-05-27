@@ -20,5 +20,5 @@ linkRequest.onreadystatechange = function () {
 linkRequest.send(null);
 
 $(document).ready(function(){
-    $(".preloader").delay(1000).fadeOut();
+    $(".preloader").delay(2000).fadeOut();
     })
