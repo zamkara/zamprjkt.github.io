@@ -258,7 +258,7 @@
         position: absolute;
         z-index: -1;
         width: 100%;
-        bottom: 0;
+        top: 40px;
         background: transparent;
         overflow: hidden;
     }
