@@ -1,0 +1,316 @@
+* {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/* Social Links */
+
+#socialLinkSection {
+    margin-top: 3px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#socialLinkContent {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.links {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-size: 16px;
+    color: #212121;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.links:hover {
+    background-color: lightgrey;
+}
+
+
+/* Profile Image */
+
+#profileImage {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: calc(25%);
+}
+
+/* The various Texts */
+
+#heroName {
+    font-size: 2.2rem;
+}
+
+#description {
+    font-size: 1.3rem;
+}
+
+#portfolioTitle {
+    margin-left: 8px;
+}
+
+#portfolioText {
+    margin-top: 0px;
+    margin-bottom: -30px;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+#firstCategoryText {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#portfolioColumn {
+    padding: 24px;
+}
+/* Cards */
+.card-main-image,
+.card-image {
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+
+.card {
+    border-radius: 2px;
+}
+
+.card-content {
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+
+/* Breakpoint resizing */
+@media only screen and (max-width: 4096px) {
+    #portfolioText {
+        font-size: 2rem;
+        margin-bottom: -20px;
+    }
+    #firstCategoryText {
+        font-size: 1.2rem;
+    }
+    #heroName {
+        font-size: 2.0rem;
+    }
+    #description {
+        font-size: 1.1rem;
+    }
+    #profileImage {
+        height: 125px;
+        width: 125px;
+        margin-top: calc(30%);
+    }
+    .header {
+        background-image: url(../images/banner.jpg);
+        background-attachment: fixed;
+        background-size: contain;
+        background-position: 0px -40px;
+    }
+    .prjkt {
+        position: absolute; z-index: 1; width: 60px; top: 5%; right: 3%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    #profileImage {
+        margin-top: calc(10%);
+    }
+    #portfolioTitle {
+        text-align: center;
+    }
+    #portfolioColumn {
+        padding-top: 50px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .header{
+        background-image: url(../images/banner.jpg); 
+        background-attachment: fixed;
+        background-size: 60cm;
+        background-position: -60px -20px;
+    }
+    .prjkt {
+        position: absolute; z-index: 1; width: 40px; top: 3%; right: 5%;
+    }
+}
+
+#contactButton {
+    border: 2px solid black;
+    font-weight: 600;
+    color: black;
+    margin-top: 15px;
+}
+
+#contactButton p {
+    margin: 0px;
+    margin-top: -1px;
+}
+
+#contactButton:hover {
+    color: white;
+    background-color: black;
+}
+/* Colors */
+
+.primary-light {
+    color: #90CAF9;
+}
+
+.primary-normal {
+    color: #2196F3;
+}
+
+.primary-dark {
+    color: #1976D2;
+}
+
+.secondary-light {
+    color: #FFE082;
+}
+
+.secondary-normal {
+    color: #FFC107;
+}
+
+.secondary-dark {
+    color: #FFA000;
+}
+
+.primary-light-b {
+    background-color: #90CAF9;
+}
+
+.primary-normal-b {
+    background-color: #2196F3;
+}
+
+.primary-dark-b {
+    background-color: #1976D2;
+}
+
+.secondary-light-b {
+    background-color: #FFE082;
+}
+
+.secondary-normal-b {
+    background-color: #FFC107;
+}
+
+.secondary-dark-b {
+    background-color: #FFA000;
+}
+
+@media(min-width: 993px) {
+
+	#profileColumn {
+		position: fixed;
+	}
+
+	#portfolioColumn {
+		margin-left: 33.3333333333%;
+	}
+	
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+  }
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .wavee {
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .wavee .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/wave.png);
+    background-size: 1000px 100px;
+    z-index: -1;
+  }
+  .wavee .wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: -3;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  
+  .wavee .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: -4;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  
+  .wavee .wave.wave3 {
+    animation: animate2 30s linear infinite;
+    z-index: -5;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15;
+  }
+  
+  .wavee .wave.wave4 {
+    animation: animate2 15s linear infinite;
+    z-index: -6;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes animate {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+  
+  @keyframes animate2 {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: -1000px;
+    }
+  }
+  .typing > * {
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typinganim 3s steps(14);
+  }
+  @keyframes typinganim {
+      from {width: 0;}
+      to {width: 100%;}
+  }
