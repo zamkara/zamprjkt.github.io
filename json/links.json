@@ -25,8 +25,8 @@
 	},
     {
         "name": "Email",
-        "color": "#7EAE00",
-        "icon": "message",
+        "color": "#FFC200",
+        "icon": "mail",
         "url": "mailto:nurzam891@gmail.com"
     }
 ]
