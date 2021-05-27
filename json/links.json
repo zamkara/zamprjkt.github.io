@@ -19,14 +19,14 @@
 	},
     {
         "name": "Facebook",
-        "color": "blue",
+        "color": "#0085E2",
         "icon": "facebook",
         "url": "https://facebook.com/nurzaman0809"
 	},
     {
         "name": "Email",
-        "color": "#00FF68",
-        "icon": "email",
+        "color": "#7EAE00",
+        "icon": "message",
         "url": "mailto:nurzam891@gmail.com"
     }
 ]
