@@ -3,7 +3,7 @@
         "name": "Telegram",
         "color": "#0088cc",
         "icon": "telegram",
-        "url": "https://t.me/naalpha"
+        "url": "https://t.me/zamkara"
 	},
     {
         "name": "Instagram",
@@ -27,6 +27,6 @@
         "name": "Email",
         "color": "#FFC200",
         "icon": "email",
-        "url": "mailto:zamprjkt@protonmail.com"
+        "url": "mailto:zamkara@duck.com"
     }
 ]
